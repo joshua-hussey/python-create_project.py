@@ -5,20 +5,15 @@
 
 # Put your name after "# Name:" above. The grader checks that it is filled in.
 
-# Read four values from the user, in this order:
 employee_name = input("Enter employee name: ")
 hours_worked = float(input("Enter hours worked: "))
 hourly_rate = float(input("Enter hourly rate: ))
 tax_rate = float(input("Enter tax rate as a percent: "))
-#
-# Hours worked and the hourly rate can have a fraction in them, like 37.5
-# hours or 10.25 hours. Use float() for all three numbers, not int().
-# int("37.5") crashes.
-#
-gross_pay =
-tax_withheld = 
-net_pay = 
-#
+
+gross_pay = hours_worked * hourly_rate
+tax_withheld = gross_pay * (tax_rate/100)
+net_pay = gross_pay - tax_withheld
+
 # Then print the four required output lines.
 # The exact format is in README.md. Match it exactly or the tests will fail.
 #
