@@ -8,15 +8,23 @@ hours_worked = float(input("Enter hours worked: "))
 hourly_rate = float(input("Enter hourly rate: ))
 tax_rate = float(input("Enter tax rate as a percent: "))
 
-git add check.py
-git commit -m "Add name and date to header"
+git add paycheck.py
+git commit -m "Add name and date to paycheck.py header"
 git push
 
 gross_pay = hours_worked * hourly_rate
 tax_withheld = gross_pay * (tax_rate / 100)
 net_pay = gross_pay - tax_withheld
 
+git add paycheck.py
+git commit -m "Implement calculations in paycheck.py"
+git push
+
 print(f"Employee: {employee_name}")
 print(f"Gross pay: ${gross_pay:.2f}")
 print(f"Tax withheld ${tax_withheld:.2f}")
 print(f"Net pay ${net_pay:.2f}")
+
+git add paycheck.py
+git commit -m "Fix formatting and output for paycheck calculations"
+git push
