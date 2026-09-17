@@ -8,7 +8,7 @@ hours_worked = float(input("Enter hours worked: "))
 hourly_rate = float(input("Enter hourly rate: ))
 tax_rate = float(input("Enter tax rate as a percent: "))
 
-git add paycheck.py
+git add check.py
 git commit -m "Add name and date to header"
 git push
 
