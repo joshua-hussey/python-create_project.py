@@ -22,8 +22,8 @@ git push
 
 print(f"Employee: {employee_name}")
 print(f"Gross pay: ${gross_pay:.2f}")
-print(f"Tax withheld ${tax_withheld:.2f}")
-print(f"Net pay ${net_pay:.2f}")
+print(f"Tax withheld: ${tax_withheld:.2f}")
+print(f"Net pay: ${net_pay:.2f}")
 
 git add paycheck.py
 git commit -m "Fix formatting and output for paycheck calculations"
