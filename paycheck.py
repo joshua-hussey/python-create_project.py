@@ -5,7 +5,7 @@
 
 employee_name = input("Enter employee name: ")
 hours_worked = float(input("Enter hours worked: "))
-hourly_rate = float(input("Enter hourly rate: ))
+hourly_rate = float(input("Enter hourly rate: "))
 tax_rate = float(input("Enter tax rate as a percent: "))
 
 git add paycheck.py
